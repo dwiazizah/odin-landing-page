@@ -1,0 +1,169 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #1f2937;
+    color: #f9faf8;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+header .left {
+    color:#f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header a {
+    color: #e5e7e8;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#showcase {
+    background: #1f2937;
+    padding: 70px 0;
+    
+}
+
+#showcase .logo {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+#showcase .container {
+    display: flex;
+    flex: 1;
+    gap: 48px;
+}
+
+#showcase p {
+    color: #e5e7e8;
+    font-size: 18px;
+}
+
+#image {
+    flex-shrink: 0;
+    width: 50%;
+    height: 100px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 3px 24px;
+    border: 2px #e5e7e8 solid;
+}
+
+#info .container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+
+#info .title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+#info .infos {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+#info .info {
+    max-width:200px;
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#quote {
+    background: #e5e7e8;
+    display: flex;
+    padding: 70px 0;
+}
+
+#quote .quote {
+    width: 80%;
+    margin: auto;
+}
+
+#quote .quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+#right {
+    font-weight: bold;
+    text-align: right;
+}
+
+#signup {
+    padding: 70px 0;
+}
+
+#signup .container {
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #f9faf8;
+}
+
+#signup .text-bold {
+    font-weight: bold;
+}
+
+footer {
+    background: #1f2937;
+    color: #e5e7e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
